@@ -33,6 +33,7 @@ header a {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 header li {
@@ -43,13 +44,12 @@ header li {
 
 header .highlight,
 header .current a {
-    color: #e8491d;
+    color: #1da4e8;
     font-weight: bold;
 }
 
 header a:hover {
     color: #cccccc;
-    font-weight: bold;
 }
 
 nav {
@@ -73,6 +73,11 @@ footer {
     width: 250px;
     height: 150px;
     border-radius: 15px 50px 15px 20px;
+    transition: 0.5s;
+}
+
+.lrn-button:hover {
+    scale: 1.1;
 }
 
 a {
@@ -142,4 +147,8 @@ input,
 
 li {
     margin-top: 10px;
+}
+
+.hidden {
+    display: none;
 }
