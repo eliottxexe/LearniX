@@ -152,3 +152,8 @@ li {
 .hidden {
     display: none;
 }
+
+#ex001° {
+    font-size: 17px;
+    color: #5882FA;
+}
