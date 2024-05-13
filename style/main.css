@@ -10,7 +10,7 @@ header {
 }
 
 .container {
-    margin-top: 15px;
+    margin-top: 80px;
     background-color: #000000;
     border-radius: 10px;
     width: 100%;
@@ -84,6 +84,7 @@ footer {
     margin-left: 70%;
     margin-right: 15px;
     margin-top: 15px;
+    margin: 15px 15px 0 70%;
     border-radius: 20px;
     background-color: #000000;
     border-color: rgb(190, 133, 11);
@@ -185,4 +186,22 @@ li {
 #ex001° {
     font-size: 17px;
     color: rgb(226, 159, 14);
+}
+
+#logo {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15px;
+}
+
+#login-button {
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #000000;
+    border-color: rgb(190, 133, 11);
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
