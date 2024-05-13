@@ -33,7 +33,7 @@ header a {
     color: rgb(190, 133, 11);
     text-transform: uppercase;
     font-size: 16px;
-    transition: 0.5s;
+    transition: color 0.3s ease;
 }
 
 header li {
@@ -157,6 +157,7 @@ li {
     border-radius: 30px;
     z-index: 1;
 }
+
 .lrn-button:hover .sub-menu {
     display: block;
     position: absolute;
@@ -164,11 +165,12 @@ li {
     border: 1px solid rgb(190, 133, 11);
     padding: 10px;
     margin-top: 5px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 .lrn-button:hover {
-    scale: 1.1;
-    z-index: 1;
+    transform: scale(1.05);
 }
 
 .lrn-button li a {
@@ -194,6 +196,11 @@ li {
     height: 80px;
     position: absolute;
     left: 15px;
+    transition: transform 0.3s ease;
+}
+
+#logo:hover {
+    transform: rotate(10deg);
 }
 
 #login-button {
