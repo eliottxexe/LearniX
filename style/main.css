@@ -1,0 +1,188 @@
+body {
+    background-color: #141414;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 15px;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color:rgb(190, 133, 11);
+}
+
+header #branding h1 {
+    margin: 10px;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+}
+
+header a {
+    color: rgb(190, 133, 11);
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .highlight,
+header .current a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+footer {
+    margin-top: 15%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lrn-button {
+    margin-top: 20px;
+    background-color: #000000;
+    width: 250px;
+    height: 150px;
+    border-radius: 15px 50px 15px 20px;
+    border-color: rgb(190, 133, 11);
+    transition: 0.5s;
+    position: relative;
+    font-size: 24px;
+    color: rgb(190, 133, 11);
+}
+
+#login-button {
+    margin-left: 70%;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #000000;
+    border-color: rgb(190, 133, 11);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input,
+#login {
+    margin-top: 10px;
+    height: 35px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+#login {
+    background-color: rgb(190, 133, 11);
+}
+
+#lesson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lb1, .lb2 {
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(190, 133, 11);
+}
+
+.lb1 {
+    margin-left: 10%;
+}
+
+.lb2 {
+   margin-right: 25%; 
+}
+
+.copyright, #license {
+    font-size: 15px;
+    color: white;
+}
+
+.img-cc {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.sub-menu {
+    display: none;
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 30px;
+    z-index: 1;
+}
+.lrn-button:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: #000000;
+    border: 1px solid rgb(190, 133, 11);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.lrn-button:hover {
+    scale: 1.1;
+    z-index: 1;
+}
+
+.lrn-button li a {
+    color: rgb(190, 133, 11);
+}
+
+.lrn-button .sub-menu li a {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: rgb(82, 57, 5);
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+#ex001° {
+    font-size: 17px;
+    color: rgb(226, 159, 14);
+}
