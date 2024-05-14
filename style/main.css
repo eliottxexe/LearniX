@@ -217,3 +217,7 @@ li {
     right: 15px;
     top: 15px;
 }
+
+#random_quote {
+    transition: 1s;
+}
