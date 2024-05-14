@@ -78,6 +78,7 @@ footer {
     position: relative;
     font-size: 24px;
     color: rgb(190, 133, 11);
+    z-index: 0;
 }
 
 #login-button {
@@ -155,7 +156,7 @@ li {
     list-style-type: none;
     padding-left: 0;
     border-radius: 30px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .lrn-button:hover .sub-menu {
@@ -171,6 +172,7 @@ li {
 
 .lrn-button:hover {
     transform: scale(1.05);
+    z-index: 1;
 }
 
 .lrn-button li a {
