@@ -70,7 +70,6 @@ var quotes =
 ]
 
 const p_element = document.getElementById("random_quote")
-const subMenu = document.getElementById('citations_sub-menu');
 
 function updateQuote() {
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
@@ -80,16 +79,3 @@ function updateQuote() {
 updateQuote();
 
 setInterval(updateQuote, 10000);
-
-randomQuote.addEventListener('mouseover', function(event) {
-    const mouseX = event.clientX;
-    const mouseY = event.clientY;
-
-    subMenu.style.display = 'block';
-    subMenu.style.left = mouseX + 'px';
-    subMenu.style.top = mouseY + 'px';
-});
-
-randomQuote.addEventListener('mouseleave', function() {
-    subMenu.style.display = 'none';
-});
