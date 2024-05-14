@@ -69,5 +69,11 @@ var quotes =
     "« Les minutes sont plus puissantes que des balles. Ne perdez pas votre temps. » Eliott Exe",
 ]
 
-var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-document.getElementById("random_quote").innerHTML = randomQuote;
+function updateQuote() {
+    var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("random_quote").innerHTML = randomQuote;
+}
+
+updateQuote();
+
+setInterval(updateQuote, 10000);
