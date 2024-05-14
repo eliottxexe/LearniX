@@ -17,7 +17,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-    color:rgb(190, 133, 11);
+    color: rgb(190, 133, 11);
 }
 
 header #branding h1 {
@@ -80,35 +80,6 @@ footer {
     font-size: 24px;
     color: rgb(190, 133, 11);
     z-index: 1;
-}
-
-#login-button {
-    margin-left: 70%;
-    margin-right: 15px;
-    margin-top: 15px;
-    margin: 15px 15px 0 70%;
-    border-radius: 20px;
-    background-color: #000000;
-    border-color: rgb(190, 133, 11);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-}
-
-input,
-#login {
-    margin-top: 10px;
-    height: 35px;
-    width: 250px;
-    border-radius: 15px;
-}
-
-#login {
-    background-color: rgb(190, 133, 11);
 }
 
 #lesson {
@@ -204,14 +175,4 @@ li {
 
 #logo:hover {
     transform: rotate(10deg);
-}
-
-#login-button {
-    margin-top: 15px;
-    border-radius: 20px;
-    background-color: #000000;
-    border-color: rgb(190, 133, 11);
-    position: absolute;
-    right: 15px;
-    top: 15px;
 }
