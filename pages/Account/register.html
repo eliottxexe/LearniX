@@ -15,9 +15,16 @@
     </div>
 </header>
         <form action="../../account.php" method="post">
-            <input type="text" name="username" placeholder="Nom d'utilisateur" required>
-            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="text" name="name1" placeholder="Prénom">
+            <input type="text" name="name2" placeholder="Nom">
+            <input type="text" name="username" placeholder="Nom d'utilisateur*" required>
+            <input type="date" name="email" placeholder="Date de naissance*" required>
+            <br>
+            <input type="email" name="email" placeholder="E-mail*" required>
+            <br>
             <input type="password" name="password" placeholder="Mot de passe" required>
+            <input type="password" name="confirm_password" placeholder="Confirmer le mot de passe" required>
+            <br>
             <input id="connect" type="submit" name="submit" value="S'inscrire">
             <section>
             <p>Tu as déjà un compte ? <a href="../login.html">Se connecter</a></p>
