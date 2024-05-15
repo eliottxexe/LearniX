@@ -176,3 +176,42 @@ li {
 #logo:hover {
     transform: rotate(10deg);
 }
+
+form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+form, a {
+    transition: 0.25s;
+}
+
+form, a:hover {
+    color: rgb(255, 255, 255);
+}
+
+input  {
+    border-radius: 40px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(63, 63, 63);
+    transition: 0.5s;
+}
+
+input:hover {
+    scale: 1.05;
+}
+
+#connect {
+    width: 180px;
+    background-color: rgb(190, 133, 11);
+    transition: 0.5s;
+}
+
+#connect:hover {
+    background-color: white;
+}
