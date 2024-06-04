@@ -67,6 +67,8 @@ var quotes =
     "« C'est pas une question de possibilité, c'est juste une question de volonté. » Monkey D. Luffy",
     "« Les choses ne se déroulent pas toujours comme on le voudrait. » Madara, Naruto",
     "« Les minutes sont plus puissantes que des balles. Ne perdez pas votre temps. » Eliott Exe",
+    "« J'ai voulu changer, alors j'ai changer. » Eliott Exe",
+    "« On disait que je pouvais réussir, moi je disais que j'allais réussir. » Eliott Exe",
 ]
 
 const p_element = document.getElementById("random_quote")
