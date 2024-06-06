@@ -3,36 +3,34 @@
     <head>
         <link rel="stylesheet" href="../../style/main.css">
         <link rel="icon" href="../../images/logo.png" type="image/png">
-        <title>LearniX - Créer un compte</title>
+        <title>LearniX - Connexion avec Google</title>
     </head>
     <body>
         <header>
-    <img id="logo" src="../../images/logo.png">
-    <div class="container">
-        <div id="branding">
-            <h1>Créer un compte</h1>
+            <img id="logo" src="../../images/logo.png">
+            <div class="container">
+                <div id="branding">
+                    <h1>Se connecter avec Google</h1>
+                </div>
+            </div>
+        </header>
+        <div class="google-login-container">
+            <a href="/auth/google" class="google-login-button">Se connecter avec Google</a>
         </div>
-    </div>
-</header>
-        <form action="../../script/account.php" method="POST">
-            <input type="text" id ="name1" name="name1" placeholder="Prénom">
-            <input type="text" id="name2" name="name2" placeholder="Nom">
-            <input type="text" id="username" name="username" placeholder="Nom d'utilisateur*" required>
-            <input type="date" id="birthdate" name="birthdate" placeholder="Date de naissance*" required>
-            <br>
-            <input type="email" id="email" name="email" placeholder="E-mail*" required>
-            <br>
-            <input type="password" id="password" name="password" placeholder="Mot de passe" required>
-            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirmer le mot de passe" required>
-            <br>
-            <input id="connect" type="submit" value="S'inscrire">
-            <section>
+        <section>
             <p>Tu as déjà un compte ? <a href="../login.html">Se connecter</a></p>
-            </section>
-        </form>
+        </section>
         <footer>
-        <p class="copyright">Copyright ©2024 LearniX. Tous droits réservés.</p>
-        <p class="hidden" xmlns:cc="http://creativecommons.org/ns#" ><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref= Chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:flex; align-items: center; flex-direction: row; margin-top: 10px;" id="license">CC BY-NC-ND 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="" class="img-cc"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="" class="img-cc"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="" class="img-cc"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="" class="img-cc"></a></p> 
-    </footer>
+            <p class="copyright">Copyright ©2024 LearniX. Tous droits réservés.</p>
+            <p class="hidden" xmlns:cc="http://creativecommons.org/ns#" >
+                <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=Chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:flex; align-items: center; flex-direction: row; margin-top: 10px;" id="license">
+                    CC BY-NC-ND 4.0
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="" class="img-cc">
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="" class="img-cc">
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="" class="img-cc">
+                    <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="" class="img-cc">
+                </a>
+            </p> 
+        </footer>
     </body>
 </html>
