@@ -216,3 +216,31 @@ input:hover {
 #connect:hover {
     background-color: white;
 }
+
+.google-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajuster selon votre besoin */
+}
+
+.google-login-button {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.google-login-button:hover {
+    background-color: #357ae8;
+}
+
+.google-login-button img {
+    margin-right: 10px;
+}
+
