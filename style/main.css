@@ -221,7 +221,7 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Ajuster selon votre besoin */
+    height: 250px;
 }
 
 .google-login-button {
