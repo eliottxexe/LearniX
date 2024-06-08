@@ -3,8 +3,8 @@ const {OAuth2Client} = require('google-auth-library');
 const path = require('path');
 const app = express();
 
-const CLIENT_ID = 'YOUR_CLIENT_ID';
-const CLIENT_SECRET = 'YOUR_CLIENT_SECRET';
+const CLIENT_ID = '51980468173-rj4nqni8j111r17gm2pe0b631oas1u84.apps.googleusercontent.com';
+const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'http://localhost:8000/oauth2callback';
 
 const oauth2Client = new OAuth2Client(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
